@@ -74,11 +74,44 @@ Promise.all(pending_promises).then(function(result){
 				}
 			}
 		}
-		
 	}
 	var sorted_hm = getSortedKeys(hm); //Sorted array of objects with food category and the number of businesses belonging to that category.
 	console.log(sorted_hm);
-	console.log(JSON.stringify(sorted_hm));
+	var message = {
+			'action' : 'http://api.yelp.com/v2/search?term=food&location='+"Champaign"+'&sort=2', 
+			'method' : 'GET',
+			'parameters' : parameters
+		};
+
+	//var sortdat = {}
+	OAuth.setTimestampAndNonce(message);
+	OAuth.SignatureMethod.sign(message, accessor);
+	var parameterMap = OAuth.getParameterMap(message.parameters);
+	parameterMap.oauth_signature = OAuth.percentEncode(parameterMap.oauth_signature)
+	$.ajax({
+		'url' : message.action,
+		'data' : parameterMap,
+		'cache' : true,
+		'dataType' : 'jsonp',
+		
+		'success' : function(data, textStats, XMLHttpRequest) {
+			console.log(data.businesses);
+			var sortdat = {};
+			for(var i = 0; i < data.businesses.length; i++){
+				var business = data.businesses[i];
+				for(var j = 0; j < business.categories.length; j++){
+					var category = business.categories[j][0];
+					if(sortdat[category] == undefined){
+						sortdat[category] = [business.name];
+					}
+					else{
+						sortdat[category].push(business.name);
+					}
+				}
+			}
+			console.log(JSON.stringify(sortdat));
+		}
+	});
 });
 
 function getSortedKeys(obj) {
