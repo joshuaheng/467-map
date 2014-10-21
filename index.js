@@ -78,6 +78,7 @@ Promise.all(pending_promises).then(function(result){
 	}
 	var sorted_hm = getSortedKeys(hm); //Sorted array of objects with food category and the number of businesses belonging to that category.
 	console.log(sorted_hm);
+	console.log(JSON.stringify(sorted_hm));
 });
 
 function getSortedKeys(obj) {

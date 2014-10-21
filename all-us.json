@@ -1,0 +1,490 @@
+[
+  {
+    "key": "American (New)",
+    "value": 220
+  },
+  {
+    "key": "Mexican",
+    "value": 176
+  },
+  {
+    "key": "Mediterranean",
+    "value": 86
+  },
+  {
+    "key": "Breakfast & Brunch",
+    "value": 74
+  },
+  {
+    "key": "Thai",
+    "value": 64
+  },
+  {
+    "key": "Latin American",
+    "value": 60
+  },
+  {
+    "key": "Barbeque",
+    "value": 56
+  },
+  {
+    "key": "Southern",
+    "value": 52
+  },
+  {
+    "key": "American (Traditional)",
+    "value": 50
+  },
+  {
+    "key": "Vietnamese",
+    "value": 48
+  },
+  {
+    "key": "Greek",
+    "value": 48
+  },
+  {
+    "key": "Italian",
+    "value": 48
+  },
+  {
+    "key": "Coffee & Tea",
+    "value": 46
+  },
+  {
+    "key": "Sandwiches",
+    "value": 46
+  },
+  {
+    "key": "Middle Eastern",
+    "value": 44
+  },
+  {
+    "key": "Delis",
+    "value": 42
+  },
+  {
+    "key": "Bakeries",
+    "value": 36
+  },
+  {
+    "key": "Seafood",
+    "value": 34
+  },
+  {
+    "key": "Japanese",
+    "value": 34
+  },
+  {
+    "key": "Cafes",
+    "value": 34
+  },
+  {
+    "key": "Chinese",
+    "value": 34
+  },
+  {
+    "key": "Vegan",
+    "value": 32
+  },
+  {
+    "key": "Indian",
+    "value": 32
+  },
+  {
+    "key": "Food Trucks",
+    "value": 32
+  },
+  {
+    "key": "Diners",
+    "value": 30
+  },
+  {
+    "key": "Cajun\/Creole",
+    "value": 30
+  },
+  {
+    "key": "Bars",
+    "value": 26
+  },
+  {
+    "key": "Pizza",
+    "value": 24
+  },
+  {
+    "key": "Vegetarian",
+    "value": 24
+  },
+  {
+    "key": "Food Stands",
+    "value": 24
+  },
+  {
+    "key": "Asian Fusion",
+    "value": 24
+  },
+  {
+    "key": "Korean",
+    "value": 24
+  },
+  {
+    "key": "Caribbean",
+    "value": 20
+  },
+  {
+    "key": "Pubs",
+    "value": 20
+  },
+  {
+    "key": "Gastropubs",
+    "value": 18
+  },
+  {
+    "key": "Peruvian",
+    "value": 18
+  },
+  {
+    "key": "Grocery",
+    "value": 18
+  },
+  {
+    "key": "Sushi Bars",
+    "value": 16
+  },
+  {
+    "key": "Burgers",
+    "value": 16
+  },
+  {
+    "key": "Ethiopian",
+    "value": 16
+  },
+  {
+    "key": "Specialty Food",
+    "value": 16
+  },
+  {
+    "key": "Spanish",
+    "value": 14
+  },
+  {
+    "key": "Fast Food",
+    "value": 14
+  },
+  {
+    "key": "Hawaiian",
+    "value": 14
+  },
+  {
+    "key": "Street Vendors",
+    "value": 14
+  },
+  {
+    "key": "German",
+    "value": 14
+  },
+  {
+    "key": "Steakhouses",
+    "value": 12
+  },
+  {
+    "key": "Afghan",
+    "value": 10
+  },
+  {
+    "key": "Tapas Bars",
+    "value": 10
+  },
+  {
+    "key": "Restaurants",
+    "value": 10
+  },
+  {
+    "key": "Breweries",
+    "value": 10
+  },
+  {
+    "key": "Brazilian",
+    "value": 10
+  },
+  {
+    "key": "Tapas\/Small Plates",
+    "value": 10
+  },
+  {
+    "key": "Polish",
+    "value": 8
+  },
+  {
+    "key": "Caterers",
+    "value": 8
+  },
+  {
+    "key": "Soul Food",
+    "value": 8
+  },
+  {
+    "key": "Food",
+    "value": 8
+  },
+  {
+    "key": "Turkish",
+    "value": 8
+  },
+  {
+    "key": "Moroccan",
+    "value": 6
+  },
+  {
+    "key": "Tex-Mex",
+    "value": 6
+  },
+  {
+    "key": "Comfort Food",
+    "value": 6
+  },
+  {
+    "key": "Himalayan\/Nepalese",
+    "value": 6
+  },
+  {
+    "key": "French",
+    "value": 6
+  },
+  {
+    "key": "Cuban",
+    "value": 6
+  },
+  {
+    "key": "Ethnic Food",
+    "value": 6
+  },
+  {
+    "key": "Hot Dogs",
+    "value": 6
+  },
+  {
+    "key": "African",
+    "value": 6
+  },
+  {
+    "key": "Salad",
+    "value": 6
+  },
+  {
+    "key": "Hotels",
+    "value": 6
+  },
+  {
+    "key": "Modern European",
+    "value": 6
+  },
+  {
+    "key": "Taiwanese",
+    "value": 4
+  },
+  {
+    "key": "Lounges",
+    "value": 4
+  },
+  {
+    "key": "Dominican",
+    "value": 4
+  },
+  {
+    "key": "Falafel",
+    "value": 4
+  },
+  {
+    "key": "Soup",
+    "value": 4
+  },
+  {
+    "key": "Indonesian",
+    "value": 4
+  },
+  {
+    "key": "Farmers Market",
+    "value": 4
+  },
+  {
+    "key": "British",
+    "value": 4
+  },
+  {
+    "key": "Beer, Wine & Spirits",
+    "value": 4
+  },
+  {
+    "key": "Buffets",
+    "value": 4
+  },
+  {
+    "key": "Health Markets",
+    "value": 4
+  },
+  {
+    "key": "Venezuelan",
+    "value": 4
+  },
+  {
+    "key": "Chicken Wings",
+    "value": 4
+  },
+  {
+    "key": "Desserts",
+    "value": 4
+  },
+  {
+    "key": "Puerto Rican",
+    "value": 4
+  },
+  {
+    "key": "Sports Bars",
+    "value": 4
+  },
+  {
+    "key": "Filipino",
+    "value": 4
+  },
+  {
+    "key": "Food Court",
+    "value": 4
+  },
+  {
+    "key": "Halal",
+    "value": 4
+  },
+  {
+    "key": "Seafood Markets",
+    "value": 4
+  },
+  {
+    "key": "Cocktail Bars",
+    "value": 2
+  },
+  {
+    "key": "Ice Cream & Frozen Yogurt",
+    "value": 2
+  },
+  {
+    "key": "South African",
+    "value": 2
+  },
+  {
+    "key": "Jazz & Blues",
+    "value": 2
+  },
+  {
+    "key": "Mongolian",
+    "value": 2
+  },
+  {
+    "key": "Pakistani",
+    "value": 2
+  },
+  {
+    "key": "Juice Bars & Smoothies",
+    "value": 2
+  },
+  {
+    "key": "Meat Shops",
+    "value": 2
+  },
+  {
+    "key": "Department Stores",
+    "value": 2
+  },
+  {
+    "key": "Tea Rooms",
+    "value": 2
+  },
+  {
+    "key": "Russian",
+    "value": 2
+  },
+  {
+    "key": "Dive Bars",
+    "value": 2
+  },
+  {
+    "key": "Nightlife",
+    "value": 2
+  },
+  {
+    "key": "Irish",
+    "value": 2
+  },
+  {
+    "key": "Internet Cafes",
+    "value": 2
+  },
+  {
+    "key": "Shopping",
+    "value": 2
+  },
+  {
+    "key": "Cheese Shops",
+    "value": 2
+  },
+  {
+    "key": "Music Venues",
+    "value": 2
+  },
+  {
+    "key": "Argentine",
+    "value": 2
+  },
+  {
+    "key": "Creperies",
+    "value": 2
+  },
+  {
+    "key": "Cambodian",
+    "value": 2
+  },
+  {
+    "key": "Donuts",
+    "value": 2
+  },
+  {
+    "key": "Wine Bars",
+    "value": 2
+  },
+  {
+    "key": "Cafeteria",
+    "value": 2
+  },
+  {
+    "key": "Laotian",
+    "value": 2
+  },
+  {
+    "key": "Cheesesteaks",
+    "value": 2
+  },
+  {
+    "key": "Shanghainese",
+    "value": 2
+  },
+  {
+    "key": "Bangladeshi",
+    "value": 2
+  },
+  {
+    "key": "Szechuan",
+    "value": 2
+  },
+  {
+    "key": "Butcher",
+    "value": 2
+  },
+  {
+    "key": "Dim Sum",
+    "value": 2
+  },
+  {
+    "key": "Malaysian",
+    "value": 2
+  }
+]
