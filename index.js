@@ -102,10 +102,10 @@ Promise.all(pending_promises).then(function(result){
 				for(var j = 0; j < business.categories.length; j++){
 					var category = business.categories[j][0];
 					if(sortdat[category] == undefined){
-						sortdat[category] = [business.name];
+						sortdat[category] = [business];
 					}
 					else{
-						sortdat[category].push(business.name);
+						sortdat[category].push(business);
 					}
 				}
 			}
